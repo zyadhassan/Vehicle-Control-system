@@ -13,7 +13,7 @@ It is porject folder on eclipse , in the src folder there are 3 files , the main
 
   c. Quit the system  <br/>
 
-  <br/>  <br/>
+  <br/>  
 
 If chose to “Quit the system”: Quit program  <br/>
 
@@ -34,3 +34,56 @@ While the engine is ON, the menu must be always displayed and waits for an answe
 
   <br/>  <br/>
 
+
+####  Based on traffic light data (Take it as input from console, we will assume that this is the sensor read value)<br/>
+
+i. If the traffic light is ‘G’ set vehicle speed to 100 km/hr<br/>
+
+ii. If the traffic light is ‘O’ set vehicle speed to 30 km/hr<br/>
+
+iii. If the traffic light is ‘R’ set vehicle speed to 0 km/h<br/>
+<br/>
+<br/>
+#### Based on room temperature data (Take it as input from console, we will assume
+that this is the sensor read value)<br/>
+
+i. If temperature less than 10, Turn AC ON and set
+temperature to 20<br/>
+
+ii. If temperature is greater than 30, Turn AC ON and set
+temperature to 20<br/>
+
+iii. If temperature is otherwise, Turn AC OFF<br/>
+<br/>
+<br/>
+
+
+#### Based on engine temperature data (Take it as input from console, we will
+assume that this is the sensor read value)<br/>
+
+i. If temperature less than 100, Turn “Engine Temperature
+Controller” ON and set temperature to 125<br/>
+
+ii. If temperature is greater than 150, Turn “Engine Temperature
+Controller” ON and set temperature to 125<br/>
+
+iii. If temperature is otherwise, Turn “Engine Temperature
+Controller” OFF<br/>
+
+<br/><br/>
+#### If vehicle speed is 30 km/hr<br/>
+i. Turn ON AC if it was OFF and set room temperature to: current
+temperature * (5/4) + 1<br/>
+ii. Turn ON “Engine Temperature Controller” if it was OFF and set engine
+temperature to: current temperature * (5/4) + 1<br/>
+
+<br/><br/>
+###Display the current vehicle state 
+i. Engine state: ON/OFF.<br/>
+ii. AC: ON/OFF.<br/>
+iii. Vehicle Speed.<br/>
+iv. Room Temperature.<br/>
+v. Engine Temperature Controller State.<br/>
+vi. Engine Temperature.<br/>
+<br/><br/>
+#### If chose in menu of requirement 5 to “Turn off the engine”, the menu of requirement 1 must be displayed.
