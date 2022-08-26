@@ -92,7 +92,7 @@ vi. Engine Temperature.<br/>
 <br/>
 <br/>
 
-# Snap
+# Snapshot
 
 ![Screenshot 2022-08-26 184744](https://user-images.githubusercontent.com/85132939/186953510-4a30a779-10f5-400c-a2cc-91ed1c2b5488.png)
 
