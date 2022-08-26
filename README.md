@@ -2,7 +2,8 @@
 C project as a perctice on the basics concepts of the C language progarmming 
 <br/>
 # Run
-It is porject folder on eclipse , in the src folder there are 3 files , the main function in Vehicle_Control_System.c
+It is porject folder on eclipse , in the src folder there are 3 files , the main function in Vehicle_Control_System.c<br/>
+#WITH_ENGINE_TEMP_CONTROLLER in the Vehicle.c is set to 1 to compile the code of ENGINE_TEMP_CONTROLLER
 <br/>
 # Sepecifications
 ### 1) Asking the user if he/she wants:  <br/>
