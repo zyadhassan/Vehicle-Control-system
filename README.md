@@ -91,5 +91,6 @@ vi. Engine Temperature.<br/>
 #### If chose in menu of requirement 5 to “Turn off the engine”, the menu of requirement 1 must be displayed.
 <br/>
 # Snaps
-![image](https://user-images.githubusercontent.com/85132939/186953442-19fbc421-4c2d-4935-9dc7-1d5b5045abf4.png)
+
+![Screenshot 2022-08-26 184744](https://user-images.githubusercontent.com/85132939/186953510-4a30a779-10f5-400c-a2cc-91ed1c2b5488.png)
 
